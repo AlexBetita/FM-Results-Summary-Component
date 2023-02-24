@@ -1,0 +1,29 @@
+html,body {
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.main{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.summary{
+    display: flex;
+    align-items: center;
+}
