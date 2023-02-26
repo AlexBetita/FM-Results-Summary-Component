@@ -321,4 +321,19 @@ html,body {
         white-space: nowrap
     }
 
+    .result div:nth-child(3) div:nth-child(1){
+        font-size: 24px;
+    }
+
+    .result div:nth-child(3) div:nth-child(2){
+        font-size: 14px;
+    }
+
+    .result > div:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .circle > div:nth-child(1) {
+        font-size: 60px;
+    }
 }
