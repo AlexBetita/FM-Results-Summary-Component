@@ -274,3 +274,51 @@ html,body {
     /* color: hsl(234, 85%, 45%); */
     /* color: hsl(241, 100%, 89%); */
 }
+
+
+
+
+@media screen and (max-width: 375px){
+
+    html, body {
+        margin: 0px;
+    }
+
+    .main{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        width: unset;
+        border-radius: unset;
+    }
+
+    .result{
+        border-radius: unset;
+        border-bottom-left-radius: 7%;
+        border-bottom-right-radius: 7%;
+        height: 100%;
+    }
+
+    .summary > div:nth-child(1){
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .summary div{
+        font-size: 18px;
+    }
+
+    .continue{
+        margin: 15px 0px;
+    }
+
+    .circle{
+        width: 0%;
+    }
+
+    .circle > div:nth-child(2){
+        white-space: nowrap
+    }
+
+}
