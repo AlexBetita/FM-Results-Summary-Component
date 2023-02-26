@@ -38,7 +38,7 @@ html,body {
 .main{
     display: flex;
     width: 50%;
-    height: 60%;
+    height: 62%;
     border-radius: 7%;
     background: linear-gradient(to top right, 
     transparent 70%, 
@@ -111,5 +111,22 @@ html,body {
 .summary{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.stats > div{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 45px;
+    padding: 15px 0px;
 }
