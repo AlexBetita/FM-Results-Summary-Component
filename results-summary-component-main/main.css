@@ -138,6 +138,43 @@ html,body {
     padding: 15px 0px;
 }
 
+.stats > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.stats > div:nth-child(1) > div:nth-child(1){
+    color: hsla(0, 100%, 67%, .8);
+}
+
+.stats > div:nth-child(1) > div:nth-child(1) > img{
+    padding-right: 15px;
+}
+
+.stats > div:nth-child(2) > div:nth-child(1){
+    color: hsla(39, 100%, 50%, .8);
+}
+
+.stats > div:nth-child(2) > div:nth-child(1) > img{
+    padding-right: 15px;
+}
+
+.stats > div:nth-child(3) > div:nth-child(1){
+    color: hsla(166, 97%, 37%, .8);
+}
+
+.stats > div:nth-child(3) > div:nth-child(1) > img{
+    padding-right: 15px;
+}
+
+.stats > div:nth-child(4) > div:nth-child(1){
+    color: hsla(234, 85%, 45%, .8);
+}
+
+.stats > div:nth-child(4) > div:nth-child(1) > img{
+    padding-right: 15px;
+}
+
 .continue {
     display: flex;
     justify-content: center;
@@ -146,7 +183,7 @@ html,body {
     color: hsl(221, 100%, 96%);
     width: 80%;
     border-radius: 25px;
-    background: rgb(41, 34, 61);
+    background: rgb(55, 50, 67);
     height: 45px;
     /* color: hsl(234, 85%, 45%); */
     /* color: hsl(241, 100%, 89%); */
