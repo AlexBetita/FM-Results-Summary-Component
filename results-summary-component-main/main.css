@@ -135,12 +135,97 @@ html,body {
     font-size: 20px;
     justify-content: space-between;
     height: 45px;
-    padding: 15px 0px;
+    padding: 5px 18px;
+    margin: 10px 0px;
 }
 
 .stats > div > div {
     display: flex;
     align-items: center;
+}
+
+.stats > div:nth-child(1){
+    background: hsla(0, 100%, 67%, .05);
+    border-radius: 18%;
+}
+
+.reaction{
+    position: relative;
+}
+
+.stats > div:nth-child(2){
+    background: hsla(39, 100%, 50%, .05);
+    border-radius: 18%;
+}
+
+.memory{
+    position: relative;
+}
+
+.stats > div:nth-child(3){
+    background: hsla(166, 97%, 37%, .05);
+    border-radius: 18%;
+}
+
+.verbal{
+    position: relative;
+}
+
+.stats > div:nth-child(4){
+    background: hsla(234, 85%, 45%, .05);
+    border-radius: 18%;
+}
+
+.visual{
+    position: relative;
+}
+
+.arch-top-right{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    /* box-shadow: 6px 0px 0 0 hsl(350deg 19% 94%); */
+    box-shadow: 2px 0px 0 0 rgb(242, 235, 236);
+    position: absolute;
+    top: 1px;
+    transform: rotate(315deg);
+    right: 5px;
+}
+
+.arch-top-left{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    /* box-shadow: 6px 0px 0 0 hsl(350deg 19% 94%); */
+    box-shadow: 2px 0px 0 0 rgb(242, 235, 236);
+    position: absolute;
+    top: 1px;
+    transform: rotate(225deg);
+    left: 5px;
+}
+
+.arch-bottom-right{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    /* box-shadow: 6px 0px 0 0 hsl(350deg 19% 94%); */
+    box-shadow: 2px 0px 0 0 rgb(242, 235, 236);
+    position: absolute;
+    bottom: 1px;
+    transform: rotate(45deg);
+    right: 5px;
+}
+
+.arch-bottom-left{
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    /* box-shadow: 6px 0px 0 0 hsl(350deg 19% 94%); */
+    box-shadow: 2px 0px 0 0 rgb(242, 235, 236);
+    position: absolute;
+    bottom: 1px;
+    transform: rotate(130deg);
+    left: 5px;
 }
 
 .stats > div:nth-child(1) > div:nth-child(1){
@@ -183,7 +268,7 @@ html,body {
     color: hsl(221, 100%, 96%);
     width: 80%;
     border-radius: 25px;
-    background: rgb(55, 50, 67);
+    background: hsla(226, 30%, 27%, 1);
     height: 45px;
     /* color: hsl(234, 85%, 45%); */
     /* color: hsl(241, 100%, 89%); */
